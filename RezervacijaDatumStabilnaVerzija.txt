@@ -1,0 +1,26 @@
+     String poruka = "";
+        String datumPocetkaRezervacije = request.getParameter("pocetakRezervacije");
+        String datumKrajaRezervacije = request.getParameter("krajRezervacije");
+        String idSobe = request.getParameter("sobaID");
+        try {
+
+            LocalDate p = LocalDate.parse(datumPocetkaRezervacije);
+        System.out.println(p);
+            LocalDate k = LocalDate.parse(datumKrajaRezervacije);
+        System.out.println(k);
+
+if (k.isBefore(p.plusDays(10))) {
+                response.sendRedirect("index.jsp");
+            } else {
+                poruka = "Možete rezervisati najviše 10 dana";
+                request.setAttribute("poruka", poruka);
+                RequestDispatcher rd = request.getRequestDispatcher("rezervacijaUgovor.jsp?id=" + idSobe);
+                rd.forward(request, response);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            poruka = "Greška u popunjavanju datuma!";
+            request.setAttribute("poruka", poruka);
+            RequestDispatcher rd = request.getRequestDispatcher("rezervacijaUgovor.jsp?id=" + idSobe);
+            rd.forward(request, response);
+        }

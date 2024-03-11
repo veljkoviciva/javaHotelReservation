@@ -1,0 +1,37 @@
+UBACITI MD5
+korisnicko ime i lozinka 
+stefi / stefan
+markomare / marko 
+toki / todortoki
+admin / javaadmin
+menadzer1 / javamenadzer1
+
+------------------------------
+FORMAT ZA DATUM: YYYY-MM-DD
+
+METOD naziviHotela ISPISUJU SAMO NAZIVE U insertSobe ALI U SEBI IMA I IDHOTELA
+------------
+AKO ZBOG AI U KOLONI KORISNIKID NE RADI F-JA INT PROVERALOGIN, VRATITI NA BOOLEAN!!! ?
+
+VRATITI SE NA REZERVACIJE!!!
+
+IZMENITI SUNSET I STARPLUS NA STRANI SA REZERVACIJAMA
+
+IZMENITI VREDNOSTI SOBE KOD SPORET, TERASA, SEF, KLIMA
+
+vratiBrojPoena IMPLEMENTIRATI TEK NAKON INSERTA HOTELA!!!! 
+ODNOSI SE NA BROJ POENA KOJI SVAKI HOTEL NOSI TJ. VRACA 5, 10 ILI 15
+POSTOJI METOD, ALI JOS UVEK NEDOSTUPAN ZA LOGINSERVLET
+NAKON TOGA NAPRAVITI METOD vratiUkupanBrojPoena KOJI CE VRACATI ZBIR POENA KORISNIKA
+
+
+IZMENITI KADA JE ULOGOVAN KORISNIK DA SE NE VIDI LOGIN I SIGNUP
+
+Ako stignes, pozabavi se buttonima na rezervacijaTropical/Sunset/StarPlus
+
+UKOLIKO CREATE SOBU PRAVI PROBLEM, PRILAGODITI I NJEGA PREKO A-HREF.
+TRENUTNO JE KAO SUBMIT POLJE
+
+-------------------------------------------------------------------------
+GRESKA U REZERVACIJI: PROPUSTA PR: 1.JUL POCETAK, 29.JUN KRAJ!!!!!
+-------------------------------------------------------------------------

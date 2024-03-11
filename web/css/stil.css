@@ -1,0 +1,147 @@
+body, .navbar    {
+    background-image: linear-gradient(to right, rgba(128, 115, 140), rgba(128, 0, 255));
+}
+
+.navbar {
+    border: 5px solid white;
+}
+
+#dropdownPrijava {
+    color: white;
+}
+
+#dropdownPrijava:hover {
+    background-color: rgba(128, 115, 140);
+    color: turquoise;
+}
+
+footer {
+    border: 5px solid white;
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    color: turquoise;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#hoteli {
+    background-color: turquoise;
+    color: gray;
+}
+
+#hoteli:hover {
+    background-color: rgba(128, 115, 140);
+    color: white;
+}
+
+#tabelaHotela {
+    height: 100px;
+    color:  white;
+    
+}
+
+#optionTipSobe {
+    color: black;
+}
+
+#btnRezervacijaTropical, #btnRezervacijaSunset, #btnRezervacijaStarPlus, #btnPotvrdiRezervaciju {
+    border: 2px solid aquamarine;
+    border-radius: 15px;
+    height: 50px;
+    background: rgba(128, 115, 140);
+    color: aquamarine;
+}
+
+#btnIzaberiTropical, #btnIzaberiSunset, #btnIzaberiStarPlus {
+    border: 2px solid aquamarine;
+    background: rgba(128, 115, 140);
+    color: aquamarine;
+}
+
+#btnRezervacijaTropical:hover {
+    border: 2px solid rgba(128, 115, 140);
+    background: aquamarine;
+    color: rgba(128, 115, 140);
+}
+
+#formaLogin, #formaSignup, #tabelaProfilKlijenta {
+    margin: auto;
+    border: 5px solid turquoise;
+    width: 50%;
+    padding: 50px;
+    background: gray;
+    color: turquoise;
+}
+
+#fieldsetLogin, #fieldsetSignup {
+    padding: 30px;
+}
+
+#fieldsetPravilaPoeni {
+    background: white;
+    font-size: 18px;
+    color: slateblue;
+}
+
+#legendPravilaPoeni {
+    font-size: 30px;
+    color: royalblue;
+    text-shadow: 3px 3px lightgrey;
+}
+
+#btnBrojPoena {
+    background: royalblue;
+    color: lightsteelblue;
+    border: 5px dashed aquamarine;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#btnBrojPoena:hover {
+    background: royalblue;
+    color: aquamarine;
+    border: 5px dashed lightsteelblue;
+}
+
+#formProfilKlijenta {
+    border: 5px solid white;
+}
+
+#btnRezervisiSobu {
+    border: 2px solid aquamarine;
+    height: 30px;
+    background: rgba(128, 115, 140);
+    color: aquamarine;
+}
+
+#btnIzmeniSobu, #btnIzmeniKlijenta {
+    border: 2px solid white;
+    height: 30px;
+    background: royalblue;
+    color: white;
+}
+
+#btnIzbrisiSobu, #btnIzbrisiRezervaciju, #btnIzbrisiKlijenta {
+    border: 2px solid orange;
+    height: 30px;
+    background: orangered;
+    color: orange;
+}
+
+#btnKreirajSobu, #btnInsertSoba {
+    border: 2px solid darkmagenta;
+    height: 50px;
+    width: 100px;
+    background: rosybrown;
+    color: darkmagenta;
+}
+
+#formInsertSoba, #formAdminPanel {
+    background-color: gray;
+    border: 5px solid rgba(128, 0, 255);
+}
